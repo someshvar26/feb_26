@@ -1,0 +1,5 @@
+---
+-  hosts: web
+   tasks: 
+   -   name: create container
+       shell: docker run -itd --name cicdcont -p 8080:8080 ashishpatel0123/mydocimg
